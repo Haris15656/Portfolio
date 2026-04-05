@@ -1,4 +1,4 @@
-import hackathonImg from "@/assets/hackathon.jpg";
+import hackathonImg from "@/assets/Hackathon.jpg";
 
 const ExperienceSection = () => {
   return (
