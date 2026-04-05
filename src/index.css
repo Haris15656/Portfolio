@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 187 71% 50%;
+    --primary-foreground: 222 47% 6%;
+
+    --secondary: 222 30% 14%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 222 30% 14%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 187 71% 50%;
+    --accent-foreground: 222 47% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 187 71% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --gradient-accent: linear-gradient(135deg, hsl(187 71% 50%), hsl(170 80% 40%));
+    --glow-accent: 0 0 20px hsl(187 71% 50% / 0.3);
+    --section-label: 187 71% 50%;
+
+    /* Category colors */
+    --cat-green: 142 60% 45%;
+    --cat-purple: 270 60% 55%;
+    --cat-orange: 30 80% 55%;
+    --cat-red: 0 70% 55%;
+    --cat-blue: 210 70% 55%;
+
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-gradient-accent {
+    background: linear-gradient(135deg, hsl(187 71% 50%), hsl(170 80% 40%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .section-label {
+    @apply text-sm font-semibold tracking-widest uppercase;
+    color: hsl(var(--section-label));
+    font-family: 'Inter', sans-serif;
+  }
+  .card-glow-blue {
+    border-top: 2px solid hsl(210 70% 55% / 0.5);
+  }
+  .card-glow-green {
+    border-top: 2px solid hsl(142 60% 45% / 0.5);
+  }
+  .card-glow-orange {
+    border-top: 2px solid hsl(30 80% 55% / 0.5);
+  }
+  .card-glow-red {
+    border-top: 2px solid hsl(0 70% 55% / 0.5);
+  }
+}
