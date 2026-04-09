@@ -2,71 +2,69 @@ import kolnImg from "@/assets/kolndom.jpg";
 import luxembourgImg from "@/assets/luxembourg.jpeg";
 import hackathonImg from "@/assets/Hackathon.jpg";
 import hackathon2Img from "@/assets/hacakathon2.jpg";
-
-const skillCategories = [
-  {
-    title: "FRONTEND",
-    skills: ["REACTJS", "REACT NATIVE", "TYPESCRIPT", "TAILWIND", "BOOTSTRAP", "HTML/CSS"],
-  },
-  {
-    title: "BACKEND",
-    skills: ["NODEJS", "EXPRESSJS", "DJANGO", "DJANGO NINJA", "RESTFUL API"],
-  },
-  {
-    title: "AI & DATA",
-    skills: ["PYTHON", "SCIKIT-LEARN", "OPENCV", "MEDIAPIPE", "LANGCHAIN", "LLAMA 3.1"],
-  },
-  {
-    title: "DATABASES",
-    skills: ["MYSQL", "MONGODB", "SQLITE", "SQL"],
-  },
-  {
-    title: "QA & AUTOMATION",
-    skills: ["PLAYWRIGHT", "PYTEST", "PAGE OBJECT MODEL", "API TESTING", "STATE MACHINE TESTING", "PYTEST-HTML"],
-  },
-  {
-    title: "TOOLS",
-    skills: ["GIT", "GITHUB", "FIGMA", "POSTMAN", "JIRA", "CONFLUENCE"],
-  },
-];
-
-const photos = [
-  { src: kolnImg, label: "KÖLN DOM" },
-  { src: luxembourgImg, label: "LUXEMBOURG" },
-  { src: hackathonImg, label: "HACKATHON" },
-  { src: hackathon2Img, label: "HACKATHON 2" },
-];
+import { useTranslation } from "react-i18next";
 
 const AboutSection = () => {
+  const { t } = useTranslation();
+
+  const skillCategories = [
+    {
+      title: t('about.categories.frontend'),
+      skills: ["REACTJS", "REACT NATIVE", "TYPESCRIPT", "TAILWIND", "BOOTSTRAP", "HTML/CSS"],
+    },
+    {
+      title: t('about.categories.backend'),
+      skills: ["NODEJS", "EXPRESSJS", "DJANGO", "DJANGO NINJA", "RESTFUL API"],
+    },
+    {
+      title: t('about.categories.ai'),
+      skills: ["PYTHON", "SCIKIT-LEARN", "OPENCV", "MEDIAPIPE", "LANGCHAIN", "LLAMA 3.1"],
+    },
+    {
+      title: t('about.categories.db'),
+      skills: ["MYSQL", "MONGODB", "SQLITE", "SQL"],
+    },
+    {
+      title: t('about.categories.qa'),
+      skills: ["PLAYWRIGHT", "PYTEST", "PAGE OBJECT MODEL", "API TESTING", "STATE MACHINE TESTING", "PYTEST-HTML"],
+    },
+    {
+      title: t('about.categories.tools'),
+      skills: ["GIT", "GITHUB", "FIGMA", "POSTMAN", "JIRA", "CONFLUENCE"],
+    },
+  ];
+
+  const photos = [
+    { src: kolnImg, label: t('about.photos.koln') },
+    { src: luxembourgImg, label: t('about.photos.luxembourg') },
+    { src: hackathonImg, label: t('about.photos.hackathon') },
+    { src: hackathon2Img, label: t('about.photos.hackathon2') },
+  ];
+
   return (
     <section id="about" className="py-24">
       <div className="container mx-auto">
-        <p className="section-label mb-3">ABOUT</p>
-        <h2 className="text-4xl md:text-5xl font-bold mb-12">Skills & Background</h2>
+        <p className="section-label mb-3">{t('about.label')}</p>
+        <h2 className="text-4xl md:text-5xl font-bold mb-12">{t('about.title')}</h2>
 
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I'm a full-stack developer with a passion for building AI-powered
-              products. From healthcare platforms to blockchain apps, I love
-              tackling problems that require both technical depth and clean design.
+              {t('about.p1')}
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Currently deepening my expertise in Web & Data Science at
-              Universität Koblenz, while exploring opportunities in
-              QA automation and engineering roles across Germany.
+              {t('about.p2')}
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Recently exploring QA automation as I believe that
-              complex systems are only as good as their reliability.
+              {t('about.p3')}
             </p>
 
             <div className="flex gap-3 mb-8">
               <span className="px-3 py-1 text-xs border border-border rounded-full text-muted-foreground">
-                C1 ENGLISH
+                {t('about.c1')}
               </span>
               <span className="px-3 py-1 text-xs border border-border rounded-full text-muted-foreground">
-                A2 DEUTSCH
+                {t('about.a2')}
               </span>
             </div>
 

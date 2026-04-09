@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "START",
+    "about": "ÜBER MICH",
+    "projects": "PROJEKTE",
+    "experience": "ERFAHRUNG",
+    "contact": "KONTAKT"
+  },
+  "hero": {
+    "location": "KOBLENZ, DEUTSCHLAND",
+    "status": "OFFEN FÜR ANGEBOTE",
+    "firstName": "Muhammad",
+    "middleName": "Haris",
+    "lastName": "Noonari",
+    "description": "Ich baue intelligente, skalierbare Systeme — und sorge dafür, dass sie zuverlässig funktionieren. Full-Stack-Entwickler mit praktischer Erfahrung in der QA-Automatisierung, zzt. Masterstudent für Web & Data Science an der Universität Koblenz.",
+    "viewProjects": "Projekte ansehen →",
+    "github": "GitHub",
+    "statProjects": "Projektabschlüsse",
+    "statInternship": "Praktikum",
+    "statHackathons": "Hackathons"
+  },
+  "about": {
+    "label": "ÜBER MICH",
+    "title": "Fähigkeiten & Hintergrund",
+    "p1": "Ich bin ein Full-Stack-Entwickler mit einer Leidenschaft für die Entwicklung KI-gestützter Produkte. Von Gesundheitsplattformen bis hin zu Blockchain-Apps – ich liebe es, Probleme zu lösen, die sowohl technisches Fachwissen als auch klares Design erfordern.",
+    "p2": "Derzeit vertiefe ich mein Fachwissen im Bereich Web & Data Science an der Universität Koblenz, während ich nach Möglichkeiten im Bereich QA-Automatisierung und Software Engineering in Deutschland suche.",
+    "p3": "Ich habe kürzlich die QA-Automatisierung für mich entdeckt, denn ich glaube, dass komplexe Systeme nur so gut sind wie deren Zuverlässigkeit.",
+    "c1": "ENG C1",
+    "a2": "DEU A2",
+    "photos": {
+      "koln": "KÖLNER DOM",
+      "luxembourg": "LUXEMBURG",
+      "hackathon": "HACKATHON",
+      "hackathon2": "HACKATHON 2"
+    },
+    "categories": {
+      "frontend": "FRONTEND",
+      "backend": "BACKEND",
+      "ai": "KI & DATEN",
+      "db": "DATENBANKEN",
+      "qa": "QA & AUTOMATISIERUNG",
+      "tools": "WERKZEUGE"
+    }
+  },
+  "projects": {
+    "label": "ARBEIT",
+    "title": "Ausgewählte Projekte",
+    "viewApp": "📱 APP SHOWCASE ANSEHEN →",
+    "githubBtn": "GitHub",
+    "items": {
+      "optifit": {
+        "tag": "ABSCHLUSSPROJEKT",
+        "desc": "KI-gestützte Fitness-App mit Echtzeit-Übungserkennung, Wiederholungszählen über MediaPipe & OpenCV und personalisierten Trainings-/Ernährungsplänen mittels LLaMA 3.1."
+      },
+      "ecomanage": {
+        "tag": "FULL STACK",
+        "desc": "Umwelt-Compliance-Dashboard für Unternehmen: Verfolgung von Emissionen und festen Abfällen, Speicherung von Grenzwerten in MySQL sowie automatische Kennzeichnung von Verstößen und Verhängung von Strafen."
+      },
+      "learnable": {
+        "tag": "HACKATHON",
+        "desc": "Verwandelt Videos, Audio & Dokumente in Zusammenfassungen, Mindmaps, Karteikarten und Quizze mithilfe von Google Gemini AI und LangChain-Workflows."
+      },
+      "decentra": {
+        "tag": "WEB3",
+        "desc": "Blockchain-basiertes, dezentrales Domain-Namen-System mit sicherer Registrierung, Eigentumsübertragung und Echtzeit-Dashboard über MultiChain."
+      },
+      "playwright": {
+        "tag": "QA AUTOMATISIERUNG",
+        "desc": "Automatisierte Browser-Test-Suite zum Testen von Anmeldeabläufen und Todo-Management auf zwei echten Websites unter Verwendung der Page-Object-Model-Architektur. 8 Tests, 0 Fehler."
+      },
+      "api": {
+        "tag": "QA AUTOMATISIERUNG",
+        "desc": "REST-API-Validierungssuite mit Reaktionszeit-Benchmarking und Schema-Überprüfung. Testet Statuscodes, Fehlerbehandlung und JSON-Struktur mit 8 Testfällen."
+      },
+      "robot": {
+        "tag": "QA / ROBOTIK",
+        "desc": "Test-Suite für autonome Roboter-Zustandsautomaten zur Simulation realer Fehlerbehandlung. 7 Zustände, 15 Testfälle, futuristisches Live-Dashboard."
+      },
+      "movie": {
+        "tag": "DATA SCIENCE",
+        "desc": "ML-Empfehlungsmodul mit TF-IDF, CountVectorizer und Kosinus-Ähnlichkeit für das TMDB 5000-Dataset mit umfangreichen Datenvisualisierungen."
+      }
+    }
+  },
+  "experience": {
+    "label": "WERDEGANG",
+    "title": "Erfahrung & Bildung",
+    "expLabel": "ERFAHRUNG",
+    "eduLabel": "BILDUNG",
+    "awardsLabel": "AUSZEICHNUNGEN",
+    "internship": {
+      "date": "JUN 2024 — SEP 2024",
+      "role": "Software-Entwicklungs-Praktikant",
+      "company": "People's Primary Healthcare Initiative Sindh · Karachi",
+      "p1": "Zusammenarbeit in einem Agile/Scrum-Team mit täglichen Standups und iterativen Auslieferungszyklen",
+      "p2": "Erstellung von React.js Frontend-Prototypen für das Health Informatics & Management System (HIMS)",
+      "p3": "Verbesserung der UI-Reaktionsfähigkeit und des visuellen Erscheinungsbilds für eine großflächige Gesundheitsplattform",
+      "p4": "Wartung und Optimierung von Datenbanksystemen in einer .NET-Backend-Umgebung"
+    },
+    "masters": {
+      "date": "OKT 2025 — VORAUSSICHTLICH 2027",
+      "degree": "M.S. Web and Data Science (Web und Datenwissenschaft)",
+      "school": "Universität Koblenz · Koblenz, Deutschland"
+    },
+    "bachelors": {
+      "date": "AUG 2021 — JUN 2025",
+      "degree": "B.S. Computer Science (Informatik)",
+      "school": "FAST NUCES · Karachi, Pakistan",
+      "grades": "CGPA: 3.26 / 4.0 · Deutsche Note: 2.1 · Dean's List Herbst 2024, Frühjahr 2025"
+    },
+    "awards": {
+      "a1": "UrbanCircular Hackathon 2025 — Frankfurt University of Applied Sciences – Vorstellung einer Plattform für ökologische Nachhaltigkeit vor der Jury",
+      "a2": "Dean's List of Honours (Gala-Liste) — FAST NUCES, Herbst 2024 & Frühling 2025",
+      "a3": "MLH Hackbattle 2024 Teilnehmer"
+    }
+  },
+  "contact": {
+    "label": "KONTAKT",
+    "title1": "Lass uns",
+    "title2Focus": "etwas",
+    "title2End": " zusammen bauen",
+    "description": "Offen für Positionen im Bereich Full-Stack, KI, Data Science und QA-Automatisierung. Jederzeit gerne bei mir melden.",
+    "copied": "Kopiert!"
+  }
+}

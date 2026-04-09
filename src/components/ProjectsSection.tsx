@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Github } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 type Project = {
   tag: string;
@@ -12,100 +13,94 @@ type Project = {
   github?: string;
 };
 
-const projects: Project[] = [
-  {
-    tag: "FINAL YEAR PROJECT",
-    tagColor: "text-cat-green border-cat-green/40",
-    glowClass: "card-glow-green",
-    title: "OptiFit.ai",
-    description:
-      "AI-powered fitness app with real-time exercise recognition, rep counting via MediaPipe & OpenCV, and personalized workout/diet plans using LLaMA 3.1.",
-    tech: ["REACT NATIVE", "DJANGO NINJA", "LLAMA 3.1", "MEDIAPIPE", "OPENCV"],
-    link: "/showcase/optifit",
-    github: "https://github.com/Haris15656/Optifit.ai",
-  },
-  {
-    tag: "FULL STACK",
-    tagColor: "text-cat-green border-cat-green/40",
-    glowClass: "card-glow-green",
-    title: "EcoManage",
-    description:
-      "Environmental compliance dashboard for companies and industries: track emissions and solid waste, store limits per emission type in MySQL, and automatically flag breaches and apply penalties when readings exceed configurable red limits.",
-    tech: ["REACT", "TAILWIND CSS", "NODE.JS", "EXPRESS", "MYSQL", "PHPMYADMIN"],
-    link: "/showcase/ecomanage",
-    github: "https://github.com/Haris15656/EcoManage",
-  },
-  {
-    tag: "HACKATHON",
-    tagColor: "text-cat-purple border-cat-purple/40",
-    glowClass: "card-glow-blue",
-    title: "Learnable.ai",
-    description:
-      "Transforms videos, audio & documents into summaries, mind maps, flashcards, and quizzes using Google Gemini AI and LangChain workflows.",
-    tech: ["REACT TYPESCRIPT", "DJANGO NINJA", "LANGCHAIN", "GEMINI AI"],
-  },
-  {
-    tag: "WEB3",
-    tagColor: "text-cat-green border-cat-green/40",
-    glowClass: "card-glow-green",
-    title: "DecentraDomain",
-    description:
-      "Blockchain-based decentralized domain name system with secure registration, ownership transfer, and real-time dashboard using MultiChain.",
-    tech: ["REACT", "FLASK", "MULTICHAIN", "JSON-RPC"],
-    link: "/showcase/decentradomain",
-    github: "https://github.com/Haris15656/DecentraDomain",
-  },
-  {
-    tag: "QA AUTOMATION",
-    tagColor: "text-cat-purple border-cat-purple/40",
-    glowClass: "card-glow-blue",
-    title: "Playwright UI Automation",
-    description:
-      "Automated browser test suite testing login flows and todo management across 2 real websites using Page Object Model architecture. 8 tests, 0 failures.",
-    tech: ["PLAYWRIGHT", "PYTHON", "PYTEST", "POM"],
-    link: "/showcase/playwright-ui-automation",
-    github: "https://github.com/Haris15656/playwright-ui-automation",
-  },
-  {
-    tag: "QA AUTOMATION",
-    tagColor: "text-cat-purple border-cat-purple/40",
-    glowClass: "card-glow-blue",
-    title: "API Testing Framework",
-    description:
-      "REST API validation suite with response time benchmarking and schema validation. Tests status codes, error handling, and JSON structure across 8 test cases.",
-    tech: ["PYTHON", "PYTEST", "REQUESTS"],
-    link: "/showcase/api-testing-framework",
-    github: "https://github.com/Haris15656/api-testing-framework",
-  },
-  {
-    tag: "QA / ROBOTICS",
-    tagColor: "text-cat-orange border-cat-orange/40",
-    glowClass: "card-glow-orange",
-    title: "Robot State Testing",
-    description:
-      "Autonomous robot state machine testing suite simulating real-world fault handling and recovery. 7 states, 15 test cases, live futuristic dark dashboard.",
-    tech: ["PYTHON", "PYTEST", "STATE MACHINE TESTING"],
-    link: "/showcase/robot-state-testing",
-    github: "https://github.com/Haris15656/robot-state-testing",
-  },
-  {
-    tag: "DATA SCIENCE",
-    tagColor: "text-cat-orange border-cat-orange/40",
-    glowClass: "card-glow-orange",
-    title: "Movie Recommendation System",
-    description:
-      "ML recommendation engine using TF-IDF, CountVectorizer, and cosine similarity on the TMDB 5000 dataset with rich data visualizations.",
-    tech: ["PYTHON", "SCIKIT-LEARN", "PANDAS", "NUMPY", "MATPLOTLIB"],
-    github: "https://github.com/Haris15656/Movie-Recommender-System-",
-  },
-];
-
 const ProjectsSection = () => {
+  const { t } = useTranslation();
+
+  const projects: Project[] = [
+    {
+      tag: t('projects.items.optifit.tag'),
+      tagColor: "text-cat-green border-cat-green/40",
+      glowClass: "card-glow-green",
+      title: "OptiFit.ai",
+      description: t('projects.items.optifit.desc'),
+      tech: ["REACT NATIVE", "DJANGO NINJA", "LLAMA 3.1", "MEDIAPIPE", "OPENCV"],
+      link: "/showcase/optifit",
+      github: "https://github.com/Haris15656/Optifit.ai",
+    },
+    {
+      tag: t('projects.items.ecomanage.tag'),
+      tagColor: "text-cat-green border-cat-green/40",
+      glowClass: "card-glow-green",
+      title: "EcoManage",
+      description: t('projects.items.ecomanage.desc'),
+      tech: ["REACT", "TAILWIND CSS", "NODE.JS", "EXPRESS", "MYSQL", "PHPMYADMIN"],
+      link: "/showcase/ecomanage",
+      github: "https://github.com/Haris15656/EcoManage",
+    },
+    {
+      tag: t('projects.items.learnable.tag'),
+      tagColor: "text-cat-purple border-cat-purple/40",
+      glowClass: "card-glow-blue",
+      title: "Learnable.ai",
+      description: t('projects.items.learnable.desc'),
+      tech: ["REACT TYPESCRIPT", "DJANGO NINJA", "LANGCHAIN", "GEMINI AI"],
+    },
+    {
+      tag: t('projects.items.decentra.tag'),
+      tagColor: "text-cat-green border-cat-green/40",
+      glowClass: "card-glow-green",
+      title: "DecentraDomain",
+      description: t('projects.items.decentra.desc'),
+      tech: ["REACT", "FLASK", "MULTICHAIN", "JSON-RPC"],
+      link: "/showcase/decentradomain",
+      github: "https://github.com/Haris15656/DecentraDomain",
+    },
+    {
+      tag: t('projects.items.playwright.tag'),
+      tagColor: "text-cat-purple border-cat-purple/40",
+      glowClass: "card-glow-blue",
+      title: "Playwright UI Automation",
+      description: t('projects.items.playwright.desc'),
+      tech: ["PLAYWRIGHT", "PYTHON", "PYTEST", "POM"],
+      link: "/showcase/playwright-ui-automation",
+      github: "https://github.com/Haris15656/playwright-ui-automation",
+    },
+    {
+      tag: t('projects.items.api.tag'),
+      tagColor: "text-cat-purple border-cat-purple/40",
+      glowClass: "card-glow-blue",
+      title: "API Testing Framework",
+      description: t('projects.items.api.desc'),
+      tech: ["PYTHON", "PYTEST", "REQUESTS"],
+      link: "/showcase/api-testing-framework",
+      github: "https://github.com/Haris15656/api-testing-framework",
+    },
+    {
+      tag: t('projects.items.robot.tag'),
+      tagColor: "text-cat-orange border-cat-orange/40",
+      glowClass: "card-glow-orange",
+      title: "Robot State Testing",
+      description: t('projects.items.robot.desc'),
+      tech: ["PYTHON", "PYTEST", "STATE MACHINE TESTING"],
+      link: "/showcase/robot-state-testing",
+      github: "https://github.com/Haris15656/robot-state-testing",
+    },
+    {
+      tag: t('projects.items.movie.tag'),
+      tagColor: "text-cat-orange border-cat-orange/40",
+      glowClass: "card-glow-orange",
+      title: "Movie Recommendation System",
+      description: t('projects.items.movie.desc'),
+      tech: ["PYTHON", "SCIKIT-LEARN", "PANDAS", "NUMPY", "MATPLOTLIB"],
+      github: "https://github.com/Haris15656/Movie-Recommender-System-",
+    },
+  ];
+
   return (
     <section id="projects" className="py-24">
       <div className="container mx-auto">
-        <p className="section-label mb-3">WORK</p>
-        <h2 className="text-4xl md:text-5xl font-bold mb-12">Selected Projects</h2>
+        <p className="section-label mb-3">{t('projects.label')}</p>
+        <h2 className="text-4xl md:text-5xl font-bold mb-12">{t('projects.title')}</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
@@ -140,14 +135,14 @@ const ProjectsSection = () => {
                         to={project.link}
                         className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
                       >
-                        📱 VIEW APP SHOWCASE →
+                        {t('projects.viewApp')}
                       </Link>
                     ) : (
                       <a
                         href={project.link}
                         className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
                       >
-                        📱 VIEW APP SHOWCASE →
+                        {t('projects.viewApp')}
                       </a>
                     ))}
                   {project.github && (
@@ -158,7 +153,7 @@ const ProjectsSection = () => {
                       className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/30 px-3 py-1.5 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
                     >
                       <Github className="h-4 w-4 shrink-0" aria-hidden />
-                      GitHub
+                      {t('projects.githubBtn')}
                     </a>
                   )}
                 </div>

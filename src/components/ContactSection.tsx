@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const ContactSection = () => {
+  const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
 
   const copyEmail = () => {
@@ -12,16 +14,15 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-24 bg-secondary/30">
       <div className="container mx-auto text-center">
-        <p className="section-label mb-3">CONTACT</p>
+        <p className="section-label mb-3">{t('contact.label')}</p>
         <h2 className="text-4xl md:text-6xl font-bold mb-2">
-          Let's build
+          {t('contact.title1')}
         </h2>
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
-          <span className="text-gradient-accent italic">something</span>{" "}
-          together
+          <span className="text-gradient-accent italic">{t('contact.title2Focus')}</span>{t('contact.title2End')}
         </h2>
         <p className="text-muted-foreground max-w-md mx-auto mb-10">
-          Open to full-stack, AI, data science, and QA automation roles. Feel free to reach out.
+          {t('contact.description')}
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
@@ -29,7 +30,7 @@ const ContactSection = () => {
             onClick={copyEmail}
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full font-medium text-sm hover:opacity-90 transition-opacity"
           >
-            {copied ? "Copied!" : "m.haris1557@gmail.com"} 📋
+            {copied ? t('contact.copied') : "m.haris1557@gmail.com"} 📋
           </button>
           <a
             href="https://linkedin.com"

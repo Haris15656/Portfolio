@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "projects": "PROJECTS",
+    "experience": "EXPERIENCE",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "location": "KOBLENZ, GERMANY",
+    "status": "OPEN TO OPPORTUNITIES",
+    "firstName": "Muhammad",
+    "middleName": "Haris",
+    "lastName": "Noonari",
+    "description": "I build intelligent, scalable systems — and make sure they work. Full-stack developer with hands-on QA automation project work, currently pursuing my Master's in Web & Data Science at Universität Koblenz.",
+    "viewProjects": "View Projects →",
+    "github": "GitHub",
+    "statProjects": "Projects Built",
+    "statInternship": "Internship",
+    "statHackathons": "Hackathons"
+  },
+  "about": {
+    "label": "ABOUT",
+    "title": "Skills & Background",
+    "p1": "I'm a full-stack developer with a passion for building AI-powered products. From healthcare platforms to blockchain apps, I love tackling problems that require both technical depth and clean design.",
+    "p2": "Currently deepening my expertise in Web & Data Science at Universität Koblenz, while exploring opportunities in QA automation and engineering roles across Germany.",
+    "p3": "Recently exploring QA automation as I believe that complex systems are only as good as their reliability.",
+    "c1": "C1 ENGLISH",
+    "a2": "A2 DEUTSCH",
+    "photos": {
+      "koln": "KÖLN DOM",
+      "luxembourg": "LUXEMBOURG",
+      "hackathon": "HACKATHON",
+      "hackathon2": "HACKATHON 2"
+    },
+    "categories": {
+      "frontend": "FRONTEND",
+      "backend": "BACKEND",
+      "ai": "AI & DATA",
+      "db": "DATABASES",
+      "qa": "QA & AUTOMATION",
+      "tools": "TOOLS"
+    }
+  },
+  "projects": {
+    "label": "WORK",
+    "title": "Selected Projects",
+    "viewApp": "📱 VIEW APP SHOWCASE →",
+    "githubBtn": "GitHub",
+    "items": {
+      "optifit": {
+        "tag": "FINAL YEAR PROJECT",
+        "desc": "AI-powered fitness app with real-time exercise recognition, rep counting via MediaPipe & OpenCV, and personalized workout/diet plans using LLaMA 3.1."
+      },
+      "ecomanage": {
+        "tag": "FULL STACK",
+        "desc": "Environmental compliance dashboard for companies and industries: track emissions and solid waste, store limits per emission type in MySQL, and automatically flag breaches and apply penalties when readings exceed configurable red limits."
+      },
+      "learnable": {
+        "tag": "HACKATHON",
+        "desc": "Transforms videos, audio & documents into summaries, mind maps, flashcards, and quizzes using Google Gemini AI and LangChain workflows."
+      },
+      "decentra": {
+        "tag": "WEB3",
+        "desc": "Blockchain-based decentralized domain name system with secure registration, ownership transfer, and real-time dashboard using MultiChain."
+      },
+      "playwright": {
+        "tag": "QA AUTOMATION",
+        "desc": "Automated browser test suite testing login flows and todo management across 2 real websites using Page Object Model architecture. 8 tests, 0 failures."
+      },
+      "api": {
+        "tag": "QA AUTOMATION",
+        "desc": "REST API validation suite with response time benchmarking and schema validation. Tests status codes, error handling, and JSON structure across 8 test cases."
+      },
+      "robot": {
+        "tag": "QA / ROBOTICS",
+        "desc": "Autonomous robot state machine testing suite simulating real-world fault handling and recovery. 7 states, 15 test cases, live futuristic dark dashboard."
+      },
+      "movie": {
+        "tag": "DATA SCIENCE",
+        "desc": "ML recommendation engine using TF-IDF, CountVectorizer, and cosine similarity on the TMDB 5000 dataset with rich data visualizations."
+      }
+    }
+  },
+  "experience": {
+    "label": "JOURNEY",
+    "title": "Experience & Education",
+    "expLabel": "EXPERIENCE",
+    "eduLabel": "EDUCATION",
+    "awardsLabel": "AWARDS",
+    "internship": {
+      "date": "JUN 2024 — SEP 2024",
+      "role": "Software Development Intern",
+      "company": "People's Primary Healthcare Initiative Sindh · Karachi",
+      "p1": "Collaborated in an Agile/Scrum team with daily standups, sprint planning, and iterative delivery cycles",
+      "p2": "Built React.js frontend prototypes for the Health Informatics & Management System (HIMS)",
+      "p3": "Enhanced UI responsiveness and visual appeal for a large-scale healthcare data platform",
+      "p4": "Maintained and optimized database systems in a .NET backend environment"
+    },
+    "masters": {
+      "date": "OCT 2025 — EXPECTED 2027",
+      "degree": "M.S. Web and Data Science",
+      "school": "Universität Koblenz · Koblenz, Germany"
+    },
+    "bachelors": {
+      "date": "AUG 2021 — JUN 2025",
+      "degree": "B.S. Computer Science",
+      "school": "FAST NUCES · Karachi, Pakistan",
+      "grades": "CGPA: 3.26 / 4.0 · German Grade: 2.1 · Dean's List Fall 2024, Spring 2025"
+    },
+    "awards": {
+      "a1": "UrbanCircular Hackathon 2025 — Frankfurt University of Applied Sciences - Pitched an Environment Sustainability Platform to a diverse 100+ competitors and jury",
+      "a2": "Dean's List of Honours — FAST NUCES, Fall 2024 & Spring 2025",
+      "a3": "MLH Hackbattle 2024 Participant"
+    }
+  },
+  "contact": {
+    "label": "CONTACT",
+    "title1": "Let's build",
+    "title2Focus": "something",
+    "title2End": " together",
+    "description": "Open to full-stack, AI, data science, and QA automation roles. Feel free to reach out.",
+    "copied": "Copied!"
+  }
+}
