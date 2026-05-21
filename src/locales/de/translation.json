@@ -12,7 +12,7 @@
     "firstName": "Muhammad",
     "middleName": "Haris",
     "lastName": "Noonari",
-    "description": "Ich baue intelligente, skalierbare Systeme — und sorge dafür, dass sie zuverlässig funktionieren. Full-Stack-Entwickler mit praktischer Erfahrung in der QA-Automatisierung, zzt. Masterstudent für Web & Data Science an der Universität Koblenz.",
+    "description": "Ich bin Software Engineer und entwickle intelligente, KI-gestutzte Produkte end-to-end mit starkem Interesse an Computer Vision sowie klarem Fokus auf Qualitat und Zuverlassigkeit. Aktuell studiere ich Web and Data Science (M.S.) an der Universitat Koblenz.",
     "viewProjects": "Projekte ansehen →",
     "github": "GitHub",
     "statProjects": "Projektabschlüsse",
@@ -22,11 +22,11 @@
   "about": {
     "label": "ÜBER MICH",
     "title": "Fähigkeiten & Hintergrund",
-    "p1": "Ich bin ein Full-Stack-Entwickler mit einer Leidenschaft für die Entwicklung KI-gestützter Produkte. Von Gesundheitsplattformen bis hin zu Blockchain-Apps – ich liebe es, Probleme zu lösen, die sowohl technisches Fachwissen als auch klares Design erfordern.",
-    "p2": "Derzeit vertiefe ich mein Fachwissen im Bereich Web & Data Science an der Universität Koblenz, während ich nach Möglichkeiten im Bereich QA-Automatisierung und Software Engineering in Deutschland suche.",
-    "p3": "Ich habe kürzlich die QA-Automatisierung für mich entdeckt, denn ich glaube, dass komplexe Systeme nur so gut sind wie deren Zuverlässigkeit.",
+    "p1": "Ich bin Software Engineer mit Leidenschaft fur KI-gestutzte Produkte und robuste Systemarchitekturen.",
+    "p2": "Meine Projekte reichen von Healthcare-Software und Blockchain-Anwendungen bis zu Computer-Vision-Systemen, Machine-Learning-Pipelines und intelligenter Automatisierung.",
+    "p3": "Derzeit studiere ich Web and Data Science (M.S.) an der Universitat Koblenz und suche aktiv nach Rollen in Software Engineering und KI-Produktentwicklung.",
     "c1": "ENG C1",
-    "a2": "DEU A2",
+    "a2": "DEU B1",
     "photos": {
       "koln": "KÖLNER DOM",
       "luxembourg": "LUXEMBURG",
@@ -38,7 +38,7 @@
       "backend": "BACKEND",
       "ai": "KI & DATEN",
       "db": "DATENBANKEN",
-      "qa": "QA & AUTOMATISIERUNG",
+      "qa": "TESTING & ZUVERLASSIGKEIT",
       "tools": "WERKZEUGE"
     }
   },
@@ -50,35 +50,43 @@
     "items": {
       "optifit": {
         "tag": "ABSCHLUSSPROJEKT",
-        "desc": "KI-gestützte Fitness-App mit Echtzeit-Übungserkennung, Wiederholungszählen über MediaPipe & OpenCV und personalisierten Trainings-/Ernährungsplänen mittels LLaMA 3.1."
+        "desc": "KI-gestutzte Full-Stack-Fitness-App mit Echtzeit-Ubungserkennung und Wiederholungszahlung via MediaPipe und OpenCV sowie adaptiven Trainings- und Ernahrungsplanen mit LLaMA 3.1."
       },
       "ecomanage": {
         "tag": "FULL STACK",
-        "desc": "Umwelt-Compliance-Dashboard für Unternehmen: Verfolgung von Emissionen und festen Abfällen, Speicherung von Grenzwerten in MySQL sowie automatische Kennzeichnung von Verstößen und Verhängung von Strafen."
+        "desc": "Skalierbare Nachhaltigkeitsplattform mit Workflows fur Dateneingabe, Freigaben, Abfallkategorisierung, Emissionsmonitoring und automatisiertem Reporting mit React, Express und MySQL."
       },
-      "learnable": {
+      "hopnote": {
         "tag": "HACKATHON",
-        "desc": "Verwandelt Videos, Audio & Dokumente in Zusammenfassungen, Mindmaps, Karteikarten und Quizze mithilfe von Google Gemini AI und LangChain-Workflows."
+        "desc": "KI-Lernplattform, die Videos, Audio und Dokumente in Zusammenfassungen, Mindmaps, Karteikarten und Quizze mit Gemini AI und LangChain-Workflows umwandelt."
       },
       "decentra": {
         "tag": "WEB3",
         "desc": "Blockchain-basiertes, dezentrales Domain-Namen-System mit sicherer Registrierung, Eigentumsübertragung und Echtzeit-Dashboard über MultiChain."
       },
       "playwright": {
-        "tag": "QA AUTOMATISIERUNG",
-        "desc": "Automatisierte Browser-Test-Suite zum Testen von Anmeldeabläufen und Todo-Management auf zwei echten Websites unter Verwendung der Page-Object-Model-Architektur. 8 Tests, 0 Fehler."
+        "tag": "TEST AUTOMATISIERUNG",
+        "desc": "Automatisierte UI-Test-Suite mit Playwright, Pytest und POM fur Portfolio- und Todo-App-Flows inkl. Navigation, Sprachwechsel, Sichtbarkeit und Interaktionen uber 11 Testfalle."
       },
       "api": {
-        "tag": "QA AUTOMATISIERUNG",
-        "desc": "REST-API-Validierungssuite mit Reaktionszeit-Benchmarking und Schema-Überprüfung. Testet Statuscodes, Fehlerbehandlung und JSON-Struktur mit 8 Testfällen."
+        "tag": "API TESTING",
+        "desc": "Automatisierte GitHub-REST-API-Validierung fur Schema-Checks, Repository-Existenz, Response-Time-Benchmarking und Fehlerbehandlung uber 10 Testfalle."
       },
       "robot": {
-        "tag": "QA / ROBOTIK",
-        "desc": "Test-Suite für autonome Roboter-Zustandsautomaten zur Simulation realer Fehlerbehandlung. 7 Zustände, 15 Testfälle, futuristisches Live-Dashboard."
+        "tag": "ROBOTIK TESTING",
+        "desc": "State-Machine-Test-Suite fur autonome Roboterflotte mit 7 Zustanden, Missionslebenszyklus, Fehlerbehandlung und Recovery uber 28 Testfalle mit Live-Dashboard."
       },
       "movie": {
         "tag": "DATA SCIENCE",
-        "desc": "ML-Empfehlungsmodul mit TF-IDF, CountVectorizer und Kosinus-Ähnlichkeit für das TMDB 5000-Dataset mit umfangreichen Datenvisualisierungen."
+        "desc": "Film-Empfehlungssystem auf TMDB 5000 mit gewichteten Ratings und Content-Based Filtering via TF-IDF, CountVectorizer und Kosinus-Ahnlichkeit."
+      },
+      "exoplanet": {
+        "tag": "DATA SCIENCE",
+        "desc": "Kepler-Light-Curve-Pipeline zur Exoplaneten-Transit-Erkennung mit Preprocessing, Box-Least-Squares-Periodensuche, Feature-Extraktion, Random-Forest-Klassifikation und Streamlit-Dashboard."
+      },
+      "squat": {
+        "tag": "KI / COMPUTER VISION",
+        "desc": "Pose-basierte Squat-Analyse mit Rep-Feature-Extraktion und Multiclass-Klassifikation fur korrekt, Forward Lean und flache Squats inkl. Video-Inferenz und Form-Alerts."
       }
     }
   },
@@ -88,30 +96,41 @@
     "expLabel": "ERFAHRUNG",
     "eduLabel": "BILDUNG",
     "awardsLabel": "AUSZEICHNUNGEN",
+    "research": {
+      "date": "APR 2026 - HEUTE",
+      "role": "Research Intern",
+      "company": "Universitat Koblenz - Koblenz, Deutschland",
+      "p1": "Durchfuhrung einer kontrollierten empirischen Studie zu demografischen Bias in LLM-Fitness-Empfehlungen.",
+      "p2": "Entwurf einer Hybrid-Evaluation aus Human Coding und automatisierter Extraktion fur Ubungstyp, Intensitat, Safety-Framing und Ton.",
+      "p3": "Isolierung demografischer Variablen (Geschlecht, Alter, Fitnesslevel, Ziel) bei kontrollierten Prompt-Parametern zur Erkennung systematischer Praferenzen.",
+      "p4": "Co-Entwicklung einer reproduzierbaren Prompt-Methodik und Inter-Rater-Coding-Rubrik in einem vierkopfigen Forschungsteam.",
+      "p5": "Synthese von Cross-Model-Vergleichen zur Identifikation modellspezifischer versus allgemeiner Bias-Muster."
+    },
     "internship": {
       "date": "JUN 2024 — SEP 2024",
       "role": "Software-Entwicklungs-Praktikant",
-      "company": "People's Primary Healthcare Initiative Sindh · Karachi",
-      "p1": "Zusammenarbeit in einem Agile/Scrum-Team mit täglichen Standups und iterativen Auslieferungszyklen",
-      "p2": "Erstellung von React.js Frontend-Prototypen für das Health Informatics & Management System (HIMS)",
-      "p3": "Verbesserung der UI-Reaktionsfähigkeit und des visuellen Erscheinungsbilds für eine großflächige Gesundheitsplattform",
-      "p4": "Wartung und Optimierung von Datenbanksystemen in einer .NET-Backend-Umgebung"
+      "company": "People's Primary Healthcare Initiative Sindh - Karachi, Pakistan",
+      "p1": "Zusammenarbeit mit cross-funktionalen Teams zur Anforderungsaufnahme und Umsetzung skalierbarer Web-Features fur HIMS.",
+      "p2": "Entwicklung von Frontend-Prototypen mit React.js mit intuitiver UX und responsivem Design.",
+      "p3": "Verbesserung von UI-Responsiveness und Usability fur Healthcare-Anwendungen.",
+      "p4": "Wartung und Optimierung von Datenbanksystemen in einer .NET-Umgebung."
     },
     "masters": {
       "date": "OKT 2025 — VORAUSSICHTLICH 2027",
       "degree": "M.S. Web and Data Science (Web und Datenwissenschaft)",
-      "school": "Universität Koblenz · Koblenz, Deutschland"
+      "school": "Universitat Koblenz - Koblenz, Deutschland"
     },
     "bachelors": {
       "date": "AUG 2021 — JUN 2025",
       "degree": "B.S. Computer Science (Informatik)",
-      "school": "FAST NUCES · Karachi, Pakistan",
-      "grades": "CGPA: 3.26 / 4.0 · Deutsche Note: 2.1 · Dean's List Herbst 2024, Frühjahr 2025"
+      "school": "National University of Computer and Emerging Sciences (FAST) - Karachi, Pakistan",
+      "grades": "CGPA: 3.26 / 4.0 - Deutsche Note: 2.1"
     },
     "awards": {
-      "a1": "UrbanCircular Hackathon 2025 — Frankfurt University of Applied Sciences – Vorstellung einer Plattform für ökologische Nachhaltigkeit vor der Jury",
-      "a2": "Dean's List of Honours (Gala-Liste) — FAST NUCES, Herbst 2024 & Frühling 2025",
-      "a3": "MLH Hackbattle 2024 Teilnehmer"
+      "a1": "UrbanCircular Hackathon 2025 - Frankfurt University of Applied Sciences: Entwicklung einer Circular-Economy-Losung und Pitch vor 100+ Personen und Jury.",
+      "a2": "Dean's List of Honours - FAST NUCES, Herbst 2024 und Fruhjahr 2025.",
+      "a3": "Developers Day 2024 - FAST NUCES, Stellvertretender Teamleiter Datenbankdesign.",
+      "a4": "Major League Hacking (MLH) 2024 - Teilnahme am Hackbattle."
     }
   },
   "contact": {
@@ -119,7 +138,7 @@
     "title1": "Lass uns",
     "title2Focus": "etwas",
     "title2End": " zusammen bauen",
-    "description": "Offen für Positionen im Bereich Full-Stack, KI, Data Science und QA-Automatisierung. Jederzeit gerne bei mir melden.",
+    "description": "Offen fur Positionen in Software Engineering, KI und datengetriebener Produktentwicklung. Melde dich gerne.",
     "copied": "Kopiert!"
   }
 }

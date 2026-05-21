@@ -16,27 +16,37 @@ const ExperienceSection = () => {
             <h4 className="text-xs font-semibold tracking-widest text-muted-foreground mb-6 font-sans">
               {t('experience.expLabel')}
             </h4>
-            <div className="relative pl-6 border-l-2 border-primary/30">
-              <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-primary" />
-              <p className="text-xs text-muted-foreground mb-1">{t('experience.internship.date')}</p>
-              <h3 className="text-lg font-bold font-serif">{t('experience.internship.role')}</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                {t('experience.internship.company')}
-              </p>
-              <ul className="space-y-3 text-sm text-muted-foreground border-l-2 border-border pl-4">
-                <li>
-                  {t('experience.internship.p1')}
-                </li>
-                <li>
-                  {t('experience.internship.p2')}
-                </li>
-                <li>
-                  {t('experience.internship.p3')}
-                </li>
-                <li>
-                  {t('experience.internship.p4')}
-                </li>
-              </ul>
+            <div className="space-y-8">
+              <div className="relative pl-6 border-l-2 border-primary/30">
+                <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-primary" />
+                <p className="text-xs text-muted-foreground mb-1">{t('experience.research.date')}</p>
+                <h3 className="text-lg font-bold font-serif">{t('experience.research.role')}</h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  {t('experience.research.company')}
+                </p>
+                <ul className="space-y-3 text-sm text-muted-foreground border-l-2 border-border pl-4">
+                  <li>{t('experience.research.p1')}</li>
+                  <li>{t('experience.research.p2')}</li>
+                  <li>{t('experience.research.p3')}</li>
+                  <li>{t('experience.research.p4')}</li>
+                  <li>{t('experience.research.p5')}</li>
+                </ul>
+              </div>
+
+              <div className="relative pl-6 border-l-2 border-primary/30">
+                <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-primary" />
+                <p className="text-xs text-muted-foreground mb-1">{t('experience.internship.date')}</p>
+                <h3 className="text-lg font-bold font-serif">{t('experience.internship.role')}</h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  {t('experience.internship.company')}
+                </p>
+                <ul className="space-y-3 text-sm text-muted-foreground border-l-2 border-border pl-4">
+                  <li>{t('experience.internship.p1')}</li>
+                  <li>{t('experience.internship.p2')}</li>
+                  <li>{t('experience.internship.p3')}</li>
+                  <li>{t('experience.internship.p4')}</li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -84,6 +94,7 @@ const ExperienceSection = () => {
                 <li>{t('experience.awards.a1')}</li>
                 <li>{t('experience.awards.a2')}</li>
                 <li>{t('experience.awards.a3')}</li>
+                <li>{t('experience.awards.a4')}</li>
               </ul>
             </div>
           </div>

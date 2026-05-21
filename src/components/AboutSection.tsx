@@ -10,23 +10,23 @@ const AboutSection = () => {
   const skillCategories = [
     {
       title: t('about.categories.frontend'),
-      skills: ["REACTJS", "REACT NATIVE", "TYPESCRIPT", "TAILWIND", "BOOTSTRAP", "HTML/CSS"],
+      skills: ["REACT", "REACT NATIVE", "TYPESCRIPT", "TAILWIND", "HTML/CSS", "JAVASCRIPT"],
     },
     {
       title: t('about.categories.backend'),
-      skills: ["NODEJS", "EXPRESSJS", "DJANGO", "DJANGO NINJA", "RESTFUL API"],
+      skills: ["NODE.JS", "EXPRESS", "DJANGO", "DJANGO NINJA", "REST API", "FLASK"],
     },
     {
       title: t('about.categories.ai'),
-      skills: ["PYTHON", "SCIKIT-LEARN", "OPENCV", "MEDIAPIPE", "LANGCHAIN", "LLAMA 3.1"],
+      skills: ["PYTHON", "SCIKIT-LEARN", "OPENCV", "MEDIAPIPE", "LANGCHAIN", "LLAMA 3.1", "GEMINI AI"],
     },
     {
       title: t('about.categories.db'),
-      skills: ["MYSQL", "MONGODB", "SQLITE", "SQL"],
+      skills: ["MYSQL", "SQL", "JSON-RPC", "MULTICHAIN"],
     },
     {
       title: t('about.categories.qa'),
-      skills: ["PLAYWRIGHT", "PYTEST", "PAGE OBJECT MODEL", "API TESTING", "STATE MACHINE TESTING", "PYTEST-HTML"],
+      skills: ["PLAYWRIGHT", "PYTEST", "PAGE OBJECT MODEL", "API TESTING", "STATE MACHINE TESTING", "REGRESSION TESTING", "PYTEST-HTML"],
     },
     {
       title: t('about.categories.tools'),

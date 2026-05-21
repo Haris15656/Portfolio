@@ -36,7 +36,7 @@ const HeroSection = () => {
               {t('hero.viewProjects')}
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Haris15656"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 border border-border rounded-full font-medium text-sm text-foreground hover:bg-secondary transition-colors"
@@ -47,7 +47,7 @@ const HeroSection = () => {
 
           <div className="flex gap-12">
             <div>
-              <span className="text-3xl font-bold text-gradient-accent">8+</span>
+              <span className="text-3xl font-bold text-gradient-accent">10+</span>
               <p className="text-sm text-muted-foreground mt-1">{t('hero.statProjects')}</p>
             </div>
             <div>

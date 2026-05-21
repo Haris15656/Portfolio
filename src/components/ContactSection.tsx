@@ -33,7 +33,13 @@ const ContactSection = () => {
             {copied ? t('contact.copied') : "m.haris1557@gmail.com"} 📋
           </button>
           <a
-            href="https://linkedin.com"
+            href="tel:+4915757900108"
+            className="inline-flex items-center px-6 py-3 border border-border rounded-full font-medium text-sm text-foreground hover:bg-secondary transition-colors"
+          >
+            +49 1575 7900108
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-haris-noonari"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-border rounded-full font-medium text-sm text-foreground hover:bg-secondary transition-colors"
@@ -41,7 +47,15 @@ const ContactSection = () => {
             LinkedIn
           </a>
           <a
-            href="https://github.com"
+            href="https://haris-noonari.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 border border-border rounded-full font-medium text-sm text-foreground hover:bg-secondary transition-colors"
+          >
+            Website
+          </a>
+          <a
+            href="https://github.com/Haris15656"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-border rounded-full font-medium text-sm text-foreground hover:bg-secondary transition-colors"

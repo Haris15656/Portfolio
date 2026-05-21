@@ -38,11 +38,11 @@ const ProjectsSection = () => {
       github: "https://github.com/Haris15656/EcoManage",
     },
     {
-      tag: t('projects.items.learnable.tag'),
+      tag: t('projects.items.hopnote.tag'),
       tagColor: "text-cat-purple border-cat-purple/40",
       glowClass: "card-glow-blue",
-      title: "Learnable.ai",
-      description: t('projects.items.learnable.desc'),
+      title: "Hopnote",
+      description: t('projects.items.hopnote.desc'),
       tech: ["REACT TYPESCRIPT", "DJANGO NINJA", "LANGCHAIN", "GEMINI AI"],
     },
     {
@@ -93,6 +93,22 @@ const ProjectsSection = () => {
       description: t('projects.items.movie.desc'),
       tech: ["PYTHON", "SCIKIT-LEARN", "PANDAS", "NUMPY", "MATPLOTLIB"],
       github: "https://github.com/Haris15656/Movie-Recommender-System-",
+    },
+    {
+      tag: t('projects.items.exoplanet.tag'),
+      tagColor: "text-cat-orange border-cat-orange/40",
+      glowClass: "card-glow-orange",
+      title: "Exoplanet Transit Signal Detection Pipeline",
+      description: t('projects.items.exoplanet.desc'),
+      tech: ["PYTHON", "KEPLER", "OPENCV", "SCIKIT-LEARN", "STREAMLIT"],
+    },
+    {
+      tag: t('projects.items.squat.tag'),
+      tagColor: "text-cat-orange border-cat-orange/40",
+      glowClass: "card-glow-orange",
+      title: "Pose-Based Squat Quality Classification",
+      description: t('projects.items.squat.desc'),
+      tech: ["PYTHON", "MEDIAPIPE", "OPENCV", "SCIKIT-LEARN"],
     },
   ];
 
